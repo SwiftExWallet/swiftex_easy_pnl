@@ -168,6 +168,29 @@ const csvString = generatePnlCsv(pnl);
 
 ---
 
+## Contributing
+
+Contributions are welcome! To contribute to [`SwiftExWallet/swiftex_easy_pnl`](https://github.com/SwiftExWallet/swiftex_easy_pnl):
+
+1. Fork the repository and create a branch from `develop`:
+   ```bash
+   git checkout -b feat/your-feature develop
+   ```
+2. Install dependencies and run checks:
+   ```bash
+   npm install
+   npm run typecheck
+   npm test
+   npm run build
+   ```
+3. Commit your changes (Husky will run typecheck and tests automatically) and open a Pull Request into `develop`.
+
+---
+
 ## License
 
 Apache-2.0
+
+---
+
+Built with ❤️ by [SwiftExWallet](https://swiftexchange.io)
